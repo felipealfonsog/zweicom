@@ -4,6 +4,27 @@
 // tests de tipos de algoritmos a usar : probando 
 // esperando sea el correcto, 
 
+// Hablar de la famosa Serie de Fibonacci 
+// la cual es una lista de números que se van 
+// sumando el ultimo con el penúltimo numero para obtener 
+// el nuevo numero de la serie, así hasta un limite dado.
+
+
+// in php
+// <?php
+// $n1 = 1; 
+// $n2 = 0;
+// for (i=0; $i<=10; $i++)
+// {
+//     $suma = $n1+$n2;
+//     $n1=  $n2;
+//     $n2 = suma;
+//     echo $suma. " ";
+// }
+
+
+// ?>
+
 
 // intento nro.1 
 
@@ -27,6 +48,21 @@ sumasupertota = seungonum
 print ___sumasupertota___
 fin 
 
+
+
+// posible codigo 
+
+creo una variable aqui ------ > let n1 = 1;
+creo otra ----> let n2 = 0;
+/* un for */ for (i= 0; $i<= 10; i++)
+{
+    let sum = n1 + n2;
+    let n1 = n2;
+    let n2 = sum;
+
+    return sum; // retorno la suma de la variubale sum 
+}
+/* termino un for */
 
 // para tener en cuenta:
 // en la sucession de fibonacci la suma es la suma de los dos anteriores en cada termino, ej.:
