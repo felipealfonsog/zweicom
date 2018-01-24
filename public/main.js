@@ -11,7 +11,7 @@ function addNumber(n) {
 
 
 
-    var sequence = [1, n];
+    var sequence = [1, 2];
     
     var number = 0;
     
@@ -23,7 +23,7 @@ function addNumber(n) {
     
             return number;
     
-    }   // end addToSequence(num)
+    }  
     
     var i = 1;
     
@@ -31,11 +31,15 @@ function addNumber(n) {
      
     
         var nextNum = addToSequence(sequence, i);
+
+
+ 
         console.log('Siguiente numero en la secuencia:', nextNum);
+        document.getElementById('messages').innerHTML = nextNum;
     
         i++;
-    
-    }   while (i < 200);
+        
+    }   while (i < 200);   
 
 
 
@@ -49,7 +53,7 @@ return false;
 
 
 
-socket.on('messages', function(data) {
+socket.on('nextNum', function(data) {
     console.log(data);
     render(data);
   })
@@ -62,5 +66,5 @@ socket.on('messages', function(data) {
               </div>`);
     }).join(" ");
   
-    document.getElementById('messages').innerHTML = html;
+    document.getElementById('messages').innerHTML = nextNum;
   }

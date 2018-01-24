@@ -1,4 +1,6 @@
-# Prueba Zweicom
+# Prueba Zweicom.com Soft. Developer Fullstack
+
+# En testing. No es el soft. final. 
 
 PRUEBA:
 
@@ -16,13 +18,18 @@ Entregar la ruta del repo GitHub y todo su desarrollo y test ahí.
 
 * Repositorio debe contener README que describa el desarrollo, dependencias, como ejecutar y como utilizar el servicio.
 
+#dependencias?
+1. Socket.IO
+2. EXpress.IO
 
 ## Quick Start
 
 1. `sudo npm install`
 2. `node server.js`
-3. Open <http://localhost:3000>
+3. Open <http://localhost:8080>
 
+# Notas
+-Se logra solo imprimir por consola los numeros correlativos a la  sucesión de Fibonacci. Se encuentran errores que no permiten que imprima la  sucesión de Fibonacci luego de recibir un valor. Debido a ello se continuara el testing. 
 
 
 ## Authors and contribs.

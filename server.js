@@ -13,8 +13,7 @@ app.use(express.static('public'));
 
 var messages = [{
   id: 1,
-  text: "",
-  author: "Felipe Gonzalez"
+  text: 'messages'
 }];
 
 
