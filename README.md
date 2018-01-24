@@ -29,7 +29,7 @@ Entregar la ruta del repo GitHub y todo su desarrollo y test ahí.
 3. Open <http://localhost:8080>
 
 # Notas
--Se logra solo imprimir por consola los numeros correlativos a la  sucesión de Fibonacci. Se encuentran errores que no permiten que imprima la  sucesión de Fibonacci luego de recibir un valor. Debido a ello se continuara el testing. 
+-Se logra solo imprimir por consola los numeros correlativos a la  sucesión de Fibonacci. Se encuentran errores que no permiten que imprima la  sucesión de Fibonacci luego de recibir un valor. Debido a ello se continuará el testing. 
 
 
 ## Authors and contribs.
