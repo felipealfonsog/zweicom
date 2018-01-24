@@ -1,17 +1,16 @@
 {
-    "name": "http-server",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "GPL",
-    "dependencies": {
-      "express": "^4.15.3",
-      "require-all": "^2.2.0",
-      "walk": "^2.3.9"
-    }
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL",
+  "dependencies": {
+    "express": "^4.16.2",
+    "require-all": "^2.2.0",
+    "socket.io": "^2.0.4"
   }
-  
+}

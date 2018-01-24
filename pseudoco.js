@@ -4,40 +4,18 @@
 // tests de tipos de algoritmos a usar : probando 
 // esperando sea el correcto, 
 
-// ********************
-// Hablar de la famosa Serie de Fibonacci 
-// la cual es una lista de números que se van 
-// sumando el ultimo con el penúltimo numero para obtener 
-// el nuevo numero de la serie, así hasta un limite dado.
 
-
-// in php
-// <?php
-// $n1 = 1; 
-// $n2 = 0;
-// for (i=0; $i<=10; $i++)
-// {
-//     $suma = $n1+$n2;
-//     $n1=  $n2;
-//     $n2 = suma;
-//     echo $suma. " ";
-// }
-
-
-// ?>
-
-//***************************
 
 // intento nro.1 
 
-// Incio
-// nvar  = num o n (consulta)
-// enter = nvar;
-// Si (n = nvar)
-//      return nvar; and return n-1 (sucession de fibonacci)
-//      si no
-//      null
-// fin.-
+Incio
+nvar  = num o n (consulta)
+enter = nvar;
+Si (n = nvar)
+     return nvar; and return n-1 (sucession de fibonacci)
+     si no
+     null
+fin.-
 
 
 // intento nro2 
@@ -52,7 +30,12 @@ fin
 
 
 
-// posible codigo o intento nro 3 
+// posible codigo o intento nro 3 (el core del programa)
+
+// pensando en utilizar socket .io como mencanusmo de transporte web.
+
+paso 1: le pregunto al usario que ingrese variable n1
+paso 2: ingresa numero y se guarda en memoria 
 
 creo una variable aqui ------ > let n1 = 1;
 creo otra ----> let n2 = 0;
@@ -64,7 +47,48 @@ creo otra ----> let n2 = 0;
 
     return sum; // retorno la suma de la variubale sum 
 }
-/* termino un for */
+/* termino con un for */
+
+
+
+// eventual funcion para ingresar datos en formulario 
+
+
+// intento nro.4
+
+var sequence 
+    
+var number 
+
+creo funcion (array,num) 
+
+number = sequence[num] + sequence[num -1];
+    
+realizo push(number)
+var i = 1; // 
+return number;
+
+fin de funcion 
+
+
+
+
+var nextNum que muestra la secuencia 
+console.log('Siguiente numero en la secuencia:', nextNum); // puedo hacer un consolge.llog 
+
+
+
+// incremento 
+i++;
+
+realizo un  while (i < 10);  
+// imprimse los ultimos 9 
+
+despues return 
+fin 
+// fin de posible secudo codigo  -algoirtmo para secuencia de fibanocci - (creo que es la posible solucion )
+
+
 
 // para tener en cuenta:
 // en la sucession de fibonacci la suma es la suma de los dos anteriores en cada termino, ej.:
