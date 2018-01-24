@@ -1,7 +1,7 @@
 // 
 
 // Pseucodigo para test de prueba 
-// tests de tipos de algoritmos a usar : probando 
+ 
 // esperando sea el correcto, 
 
 
@@ -32,7 +32,7 @@ fin
 
 // posible codigo o intento nro 3 (el core del programa)
 
-// pensando en utilizar socket .io como mencanusmo de transporte web.
+// pensando en utilizar socket .io como mencanismo de transporte web.
 
 paso 1: le pregunto al usario que ingrese variable n1
 paso 2: ingresa numero y se guarda en memoria 
@@ -74,7 +74,7 @@ fin de funcion
 
 
 var nextNum que muestra la secuencia 
-console.log('Siguiente numero en la secuencia:', nextNum); // puedo hacer un consolge.llog 
+console.log('Siguiente numero en la secuencia:', nextNum); // puedo hacer un consolge.log  imprimir 
 
 
 
@@ -86,7 +86,7 @@ realizo un  while (i < 10);
 
 despues return 
 fin 
-// fin de posible secudo codigo  -algoirtmo para secuencia de fibanocci - (creo que es la posible solucion )
+// fin de posible secudo codigo  -algoirtmo  - fibanocci - (creo que es la posible solucion )
 
 
 
@@ -103,11 +103,6 @@ fin
 
 // possiblemente investigare sibre alguna libreria para la ejecucion de la sucession de fibonacci
 
-// servicio HTTP, con interfaz web a travez handlebars
+ 
 
-
-
-
-
-// 
 

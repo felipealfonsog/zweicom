@@ -1,39 +1,26 @@
+
+
+
 var socket = io.connect('http://localhost:8080', { 'forceNew': true});
 
 
-
-
-// 
+// función para intentar tomar valor numerico para desplegar fibonacci 
 
 
 function addNumber(n) {
 
-
-
-
     var sequence = [1, 2];
-    
     var number = 0;
     
     function addToSequence(arr, n)    {
-    
             number = sequence[n] + sequence[n -1];
-    
             sequence.push(number);
-    
             return number;
-    
     }  
     
     var i = 1;
-    
-    do {
-     
-    
-        var nextNum = addToSequence(sequence, i);
+    do { var nextNum = addToSequence(sequence, i);
 
-
- 
         console.log('Siguiente numero en la secuencia:', nextNum);
         document.getElementById('messages').innerHTML = nextNum;
     
@@ -43,7 +30,7 @@ function addNumber(n) {
 
 
 
-
+// intento de envio de data via, socket.io
    
 socket.emit('nextNum', messages);
 return false;
@@ -51,7 +38,7 @@ return false;
 }
 
 
-
+// intento recoger data para enviarlo a un div
 
 socket.on('nextNum', function(data) {
     console.log(data);
