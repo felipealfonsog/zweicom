@@ -50,7 +50,7 @@ fin
 
 
 
-// posible codigo 
+// posible codigo o intento nro 3 
 
 creo una variable aqui ------ > let n1 = 1;
 creo otra ----> let n2 = 0;
