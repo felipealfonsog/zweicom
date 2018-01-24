@@ -4,6 +4,7 @@
 // tests de tipos de algoritmos a usar : probando 
 // esperando sea el correcto, 
 
+// ********************
 // Hablar de la famosa Serie de Fibonacci 
 // la cual es una lista de números que se van 
 // sumando el ultimo con el penúltimo numero para obtener 
@@ -25,6 +26,7 @@
 
 // ?>
 
+//***************************
 
 // intento nro.1 
 
@@ -54,7 +56,7 @@ fin
 
 creo una variable aqui ------ > let n1 = 1;
 creo otra ----> let n2 = 0;
-/* un for */ for (i= 0; $i<= 10; i++)
+/* un for */ for (i= 0; $i<= 10; i++) // se supone que esto crea toda la serie de sucession en este intento
 {
     let sum = n1 + n2;
     let n1 = n2;
