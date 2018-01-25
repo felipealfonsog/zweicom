@@ -1,0 +1,23 @@
+Hola Felipe,
+
+Según nuestra entrevista te envió la prueba que debes desarrollar junto con las preguntas que debes responder y que envió en excel.
+
+PRUEBA:
+
+1.- Crear GitHub repo si no tiene
+
+2.-Escribir servicio http que:
+ - Acepte un número como consulta
+ - Dado el número recibido, retorne el término n y n-1 de la sucesión de Fibonacci.
+
+3.- En el lenguaje que prefiera
+4.- Escribir tests para su código (que estime convenientes)
+
+Entregar la ruta del repo GitHub y todo su desarrollo y test ahí. 
+
+
+* Repositorio debe contener README que describa el desarrollo, dependencias, como ejecutar y como utilizar el servicio.
+
+Muchas gracias
+
+Saludos 

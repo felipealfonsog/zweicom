@@ -6,6 +6,7 @@ var socket = io.connect('http://localhost:8080', { 'forceNew': true});
 
 // función para intentar tomar valor numerico para desplegar fibonacci 
 
+console.log(n);
 
 function addNumber(n) {
 
@@ -40,7 +41,7 @@ return false;
 
 // intento recoger data para enviarlo a un div
 
-socket.on('messages', function(data) {
+socket.on('nextNum', function(data) {
     console.log(data);
     render(data);
   })
@@ -56,4 +57,3 @@ socket.on('messages', function(data) {
     document.getElementById('messages').innerHTML = nextNum;
   }
 
-  
