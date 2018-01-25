@@ -1,3 +1,4 @@
+
 var express = require('express');
 var app = express();
 var server = require('http').Server(app);
@@ -18,8 +19,8 @@ var messages = [{
 
 
 
-app.get('/', function(req, res) {
-  res.status(200).send("JS Working!");
+app.get('/messages', function(req, res) {
+  res.status(200).send("messages");
 });
 
 io.on('connection', function(socket) {

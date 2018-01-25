@@ -1,6 +1,6 @@
 # Prueba Zweicom.com Soft. Developer Fullstack
 
-# En testing. No es el soft. final. 
+# En testing.
 
 PRUEBA:
 

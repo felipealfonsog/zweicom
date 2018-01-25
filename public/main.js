@@ -40,7 +40,7 @@ return false;
 
 // intento recoger data para enviarlo a un div
 
-socket.on('nextNum', function(data) {
+socket.on('messages', function(data) {
     console.log(data);
     render(data);
   })
@@ -55,3 +55,5 @@ socket.on('nextNum', function(data) {
   
     document.getElementById('messages').innerHTML = nextNum;
   }
+
+  
