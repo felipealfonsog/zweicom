@@ -1,12 +1,22 @@
 
 
 
+
+
+
+
+
 var socket = io.connect('http://localhost:8080', { 'forceNew': true});
+
+
+
+
 
 
 // función para intentar tomar valor numerico para desplegar fibonacci 
 
-console.log(n);
+// document.getElementById('n').innerHTML=HTML;
+//  console.log(n);
 
 function addNumber(n) {
 
@@ -28,6 +38,7 @@ function addNumber(n) {
         i++;
         
     }   while (i < 200);   
+
 
 
 
