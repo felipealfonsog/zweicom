@@ -26,19 +26,25 @@ function addNumber(n) {
     function addToSequence(arr, n)    {
             number = sequence[n] + sequence[n -1];
             sequence.push(number);
+
+
+            // var correlative = sequence; 
             return number;
     }  
-    
+  
     var i = 1;
     do { var nextNum = addToSequence(sequence, i);
 
         console.log('Siguiente numero en la secuencia:', nextNum);
-        document.getElementById('messages').innerHTML = nextNum;
-    
-        i++;
         
-    }   while (i < 200);   
+        
+        i++;
+    
 
+        // document.getElementById('messages').innerHTML = correlative;
+      
+    }   while (i < 200);   
+  
 
 
 

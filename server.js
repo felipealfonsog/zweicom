@@ -17,7 +17,7 @@ app.use(express.static('public'));
 
 var messages = [{
   id: 1,
-  text: 'n'
+  text: 'messages'
 }];
 
 
@@ -31,7 +31,7 @@ io.on('connection', function(socket) {
   socket.on('messages', function(data) {
     messages.push(data);
     console.log(data);
-    io.sockets.emit('messages', messages);
+    io.sockets.emit('nextNum', messages);
    
   });
 });
