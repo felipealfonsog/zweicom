@@ -33,7 +33,8 @@ Entregar la ruta del repo GitHub y todo su desarrollo y test ahí.
 
 
 ## Authors and contribs.
-Developed by Felipe Alfonso Gonzalez // Software Developer - felipe.dev.engr.js@gmail.com 
+Developed by Felipe Alfonso Gonzalez // Software Engineer - Developer - 2018CC -  felipe.dev.engr.js@gmail.com  - http://felipe.nodeio.us
+
 
 
 ## Copyright and license
