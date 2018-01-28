@@ -13,8 +13,6 @@ app.use(express.static('public'));
 
 
 
-
-
 var messages = [{
   id: 1,
   text: 'messages'
@@ -22,20 +20,25 @@ var messages = [{
 
 
 
-
 io.on('connection', function(socket) {
-  console.log('Alguien se ha conectado con Sockets');
+  console.log('is it connected? oh yeah Cool!'); 
   socket.emit('messages', messages);
- 
 
-  socket.on('messages', function(data) {
-    messages.push(data);
-    console.log(data);
-    io.sockets.emit('nextNum', messages);
-   
-  });
+
+  socket.on('messages', function(socket) {
+    console.log('cjeck it out bro! this is connected to sockjets!'); 
+     messages.push(data); 
+     console.log(data); 
+     io.sockets.emit('nextData', messages);
+
+  }); 
 });
+
+
+
 
 server.listen(8080, function() {
-  console.log("Servidor corriendo en http://localhost:8080");
+  console.log("Server running on port 5050, cause I'm not sure yet"); 
+
 });
+
