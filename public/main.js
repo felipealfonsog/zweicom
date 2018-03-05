@@ -57,7 +57,7 @@ function addMessage(e) {
         // document.getElementById('messages').innerHTML = correlative;
         var resultingMssg =  correlative - init_n; 
         console.log(resultingMssg);
-        document.getElementById('resultingMssg').innerHTML = HTML; 
+        document.getElementById('texto').innerHTML = resultingMssg; 
       }
     
   // I emit the message through Sockets.IO 
