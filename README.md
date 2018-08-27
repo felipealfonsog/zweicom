@@ -23,21 +23,25 @@ Entregar la ruta del repo GitHub y todo su desarrollo y test ahí.
 1. Socket.IO
 2. EXpress.IO
 
-## Quick Start
+#
+Quick Start
 
 1. `sudo npm install`
 2. `node server.js`
 3. Open <http://localhost:8080>
 
-# Notas
+#
+Notas
 -Se logra solo imprimir por consola los numeros correlativos a la  sucesión de Fibonacci. Se encuentran errores que no permiten que imprima la  sucesión de Fibonacci luego de recibir un valor. Debido a ello se continuará el testing. 
 
 
-## Authors and contribs.
+#
+
 Developed by Felipe Alfonso Gonzalez // Software Engineer - Developer - 2018CC -  f.alfonso@res-ear.ch  - http://felipe.moodylabs.us
 
 
 
-## Copyright and license
+#
+Copyright and license
  
 Copyright JS Foundation and other contributors, http://js.foundation under [the GPU/GPL](LICENSE).
