@@ -1,4 +1,4 @@
-# Prueba Zweicom.com Soft. Developer Fullstack
+# Test Zweicom.com Software Engineer / Developer Fullstack
 
 # En testing.
 
@@ -33,7 +33,7 @@ Entregar la ruta del repo GitHub y todo su desarrollo y test ahí.
 
 
 ## Authors and contribs.
-Developed by Felipe Alfonso Gonzalez // Software Engineer - Developer - 2018CC -  felipe.dev.engr.js@gmail.com  - http://felipe.nodeio.us
+Developed by Felipe Alfonso Gonzalez // Software Engineer - Developer - 2018CC -  f.alfonso.go@gmail.com  - http://felipe.moodylabs.us
 
 
 
