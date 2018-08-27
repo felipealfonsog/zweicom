@@ -2,7 +2,9 @@
 
 En testing.
 
-PRUEBA:
+#
+
+TEST:
 
 1.- Crear GitHub repo si no tiene
 
