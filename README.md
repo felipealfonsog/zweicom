@@ -1,4 +1,4 @@
-# Test Zweicom.com Software Engineer / Developer Fullstack
+# Test Zweicom.com - Software Engineer Fullstack
 
 En testing.
 
