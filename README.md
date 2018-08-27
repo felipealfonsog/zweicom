@@ -1,6 +1,6 @@
 # Test Zweicom.com Software Engineer / Developer Fullstack
 
-# En testing.
+En testing.
 
 PRUEBA:
 
