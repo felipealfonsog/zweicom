@@ -21,14 +21,14 @@ var messages = [{
 
 
 io.on('connection', function(socket) {
-  console.log('is it connected? oh yeah Cool!'); 
+  console.log('is it connected? yes!'); 
   socket.emit('messages', messages);
 
 
   socket.on('messages', function(socket) {
     console.log('check it out bro! this is connected to sockets!'); 
      messages.push(data); 
-     console.log(data); 
+     console.log(data);        
      io.sockets.emit('messages', messages);
 
   }); 
@@ -38,7 +38,7 @@ io.on('connection', function(socket) {
 
 
 server.listen(8080, function() {
-  console.log("Server running on port 8080, cause I'm not sure yet"); 
+  console.log("Server running on port 8080"); 
 
 });
 

@@ -47,10 +47,10 @@ function addMessage(e) {
       do { var nextNum = addToSequence(sequence, i);
 
           i++;
-       if (nextNum == init_n) {
+      
           console.log('Siguiente numero en la secuencia:', nextNum);
           // document.getElementById('messages').innerHTML = correlative;
-       }
+    
       }   while (i < 200);   
 
    // I'm trying to implement this iteration 
